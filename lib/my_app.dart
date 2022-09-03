@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:samples/app_page.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({Key? key}) : super(key: key);
@@ -10,7 +11,7 @@ class AppWidget extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container(),
+      home: const AppPage(),
     );
   }
 }
